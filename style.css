@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Urbanist", sans-serif;
+}
+
+:root {
+    --bs-dark-color: #1a1d20;
+    --bs-dark-primary: #1c1c1c;
+    --bs-main-color: #fff;
+    --bs-primary-color: #c6c6c6;
+    --secondary-color: #29a9fd;
+    --bs-supporting-color: #c850c0
+}
+ 
+.common-heading{
+    font-size:2.8rem;
+    font-weight: 400;
+    letter-spacing: .01rem !important
+}
+.common-title{
+    margin-bottom: 4.2rem;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--bs-dark-color);
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    line-height: 3rem;
+    font-weight: 600;
+    font-size: 3.4rem;
+}
+
+p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--bs-dark-color);
+    letter-spacing:.07rem;
+    text-rendering: optimizeLegibility;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.bg-main{
+    height: 80vh;
+    position: relative;
+}
+.hero-video--section{
+    max-width: 100%;
+    height: auto;
+    width: 25rem;
+    border-radius: 2rem;
+}
+.hero-section >.container{
+    display: grid;
+    place-content: center;
+    height: inherit;
+}
+.bg-color{
+    background-color: var(--bs-dark-primary);
+}
+.nav-link{
+    color: var(--bs-main-color);
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: var(--secondary-color) !important;
+}
+.text-grey{
+    color: var(--bs-primary-color);
+}
+.custom-shape-divider-bottom-1712769264 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1712769264 svg {
+    position: relative;
+    display: block;
+    width: calc(116% + 1.3px);
+    height: 123px;
+}
+
+.custom-shape-divider-bottom-1712769264 .shape-fill {
+    fill: #FFFFFF;
+}
+.services-section{
+    padding: 6rem 0 3rem 0 !important;
+}
+.icon-span{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: var(--secondary-color);
+    color: var(--bs-main-color);
+}
+.card-box:hover{
+    box-shadow: rgba(149, 157, 165, .2) 0 8px 24px;
+}
