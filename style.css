@@ -185,11 +185,14 @@ li {
 #github:hover {
     cursor: pointer
 }
-
-#pp1 {
-    width: 25rem;
+#ppparent{
     position: absolute;
-    margin-bottom: 5rem;
+    width: 60%;
+}
+#pp1 {
+    width: 40%;
+    position: absolute;
+    margin-bottom: 4rem;
     border: 1rem;
 
 }
@@ -201,6 +204,9 @@ li {
     color: white;
     text-align: center;
     text-decoration: none;
-    border:2px solid white;
+    border:3px solid white;
     cursor: pointer;
+}
+#navbarSupportedContent{
+    color: rgb(245, 245, 248) !important;
 }
