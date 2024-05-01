@@ -11,5 +11,7 @@ function redirectGithub(){
 
 let linkedin=document.getElementById("linkedin")
 let github=document.getElementById("github")
+let contactMe=document.getElementById("contactMe")
 linkedin.addEventListener('click',redirectLinkedin)
 github.addEventListener('click',redirectGithub)
+contactMe.addEventListener('click',redirectLinkedin)
